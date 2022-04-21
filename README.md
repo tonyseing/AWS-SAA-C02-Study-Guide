@@ -738,6 +738,9 @@ Within the storage and content delivery domains, CloudWatch can inform you about
 ### CloudWatch Events:
 - Amazon CloudWatch Events delivers a near real-time stream of system events that describe changes in AWS resources. 
 - You can use events to trigger lambdas for example while using alarms to inform you that something went wrong.
+- Amazon CloudWatch Events delivers a near real-time stream of system events that describe changes in Amazon Web Services (AWS) resources. Using simple rules that you can quickly set up, you can match events and route them to one or more target functions or streams. CloudWatch Events becomes aware of operational changes as they occur. CloudWatch Events responds to these operational changes and takes corrective action as necessary, by sending messages to respond to the environment, activating functions, making changes, and capturing state information.
+
+You can also use CloudWatch Events to schedule automated actions that self-trigger at certain times using cron or rate expressions. For more information, see Schedule Expressions for Rules.
 
 ### CloudWatch Alarms:
 - CloudWatch alarms send notifications or automatically make changes to the resources you are monitoring based on rules that you define. 
