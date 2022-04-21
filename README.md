@@ -821,7 +821,7 @@ Amazon FSx for Lustre makes it easy and cost effective to launch and run the ope
 ### Amazon FSx for Lustre Key Details:
 - FSx for Lustre is compatible with the most popular Linux-based AMIs, including Amazon Linux, Amazon Linux 2, Red Hat Enterprise Linux (RHEL), CentOS, SUSE Linux and Ubuntu.
 - Since the Lustre file system is designed for high-performance computing workloads that typically run on compute clusters, choose EFS for normal Linux file system if your requirements don't match this use case.
-- FSx Lustre has the ability to store and retrieve data directly on S3 on its own.
+- FSx Lustre has the ability to store and retrieve data directly on S3 on its own. TODO: what does this mean? Sync with s3, or use s3 as a storage layer?
 
 ## Relational Database Service (RDS)
 
