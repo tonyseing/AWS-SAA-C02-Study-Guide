@@ -694,6 +694,7 @@ AWS WAF is a web application that lets you allow or block the HTTP(s) requests t
   - Any presence of a script (likely a cross-site scripting attempt)
 - You can also use NACLs to block malicious IP addresses, prevent SQL injections / XSS, and block requests from specific countries. However, it is good form to practice defense in depth. 
 - Denying or blocking malicious users at the WAF level has the added advantage of protecting your AWS ecosystem at its outermost border.
+- How is this billed? TODO
 
 ## CloudWatch
 
